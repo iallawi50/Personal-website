@@ -2,7 +2,6 @@
 
 * { 
     font-family: 'Changa', sans-serif;
-    margin-left: 0 !important;
 }
 
 body {
@@ -37,6 +36,8 @@ header h3 {
 
 .row {
     --bs-gutter-x: 4.5rem;
+    margin-left: 0 !important
+
 }
 .bg-custom {
     border: none;
@@ -122,6 +123,3 @@ footer a:hover {
     opacity: 100%;
 
 }
-
-
-media
