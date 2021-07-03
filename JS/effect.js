@@ -19,15 +19,15 @@ let span = document.querySelector(".up");
 window.onscroll = function () {
     this.scrollY >= 250 ? span.classList.add("show") : span.classList.remove("show");
 
-    this.scrollY >= 3 ? school.classList.add("effect-right-school-show") : '';
-    this.scrollY >= 300 ? skills1.classList.add("effect-right-skills-show") : '';
-    this.scrollY >= 300 ? skills2.classList.add("effect-right-skills-show") : '';
-    this.scrollY >= 300 ? skills3.classList.add("effect-bottom-skills-show") : '';
-    this.scrollY >= 300 ? skills4.classList.add("effect-bottom-skills-show") : '';
-    this.scrollY >= 300 ? skills5.classList.add("effect-left-skills-show") : '';
-    this.scrollY >= 300 ? skills6.classList.add("effect-left-skills-show") : '';
-    this.scrollY >= 400 ? brand1.classList.add("effect-right-brand-show") : '';
-    this.scrollY >= 400 ? brand2.classList.add("effect-left-brand-show") : '';
+    this.scrollY >= 240 ? school.classList.add("effect-right-school-show") : '';
+    this.scrollY >= 540 ? skills1.classList.add("effect-right-skills-show") : '';
+    this.scrollY >= 540 ? skills2.classList.add("effect-right-skills-show") : '';
+    this.scrollY >= 540 ? skills3.classList.add("effect-bottom-skills-show") : '';
+    this.scrollY >= 540 ? skills4.classList.add("effect-bottom-skills-show") : '';
+    this.scrollY >= 540 ? skills5.classList.add("effect-left-skills-show") : '';
+    this.scrollY >= 540 ? skills6.classList.add("effect-left-skills-show") : '';
+    this.scrollY >= 1100 ? brand1.classList.add("effect-right-brand-show") : '';
+    this.scrollY >= 1100 ? brand2.classList.add("effect-left-brand-show") : '';
 };
 
 
@@ -37,3 +37,9 @@ span.onclick = function () {
         behavior: "smooth",
     });
 };
+
+
+
+// window.onscroll = function () {
+//     console.log(this.scrollY)
+// }
