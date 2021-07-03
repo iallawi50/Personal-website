@@ -2,10 +2,10 @@
 
 * { 
     font-family: 'Changa', sans-serif;
+    margin-left: 0 !important;
 }
 
 body {
-    margin-left: 0 !important;
 background-color: rgb(226, 226, 226);
 }
 .bg-header {
@@ -122,3 +122,6 @@ footer a:hover {
     opacity: 100%;
 
 }
+
+
+media
