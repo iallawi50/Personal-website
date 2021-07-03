@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+
+* { 
+    font-family: 'Changa', sans-serif;
+    /* margin-left: 0 !important; */
+}
+
+body {
+background-color: rgb(226, 226, 226);
+}
+.bg-header {
+    background-image: linear-gradient(to right,#009688, #13435d);
+background-color: rgb(226, 226, 226);
+    height: 10rem;
+    margin-bottom: -150px;  
+}
+header {
+    background-color: linear-gradient(to right,#009688, #13435d);
+background-color: rgb(226, 226, 226);
+
+    height: 10rem;
+    border-bottom: solid #00b7ff 3px;
+    display: inline;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border: solid #00b7ff 3px;
+    border-radius: 50%;
+    
+}
+
+header h3 {
+    color: rgb(3, 54, 97);
+}
+
+.row {
+    --bs-gutter-x: 4.5rem;
+}
+.bg-custom {
+    border: none;
+    background-image: linear-gradient(to right,#009688, #13435d);
+}
+
+.float-right {
+    /* float: right; */
+    text-align: right;
+}
+.content {
+    margin-top: 30px;
+}
+
+
+.content h1 {
+    padding: 7px;
+    /* border-top: solid 2px #13435d; */
+    border-bottom: solid 2px #00b7ff;
+    width: 30%;
+    background-color: #f6f6f6fc;
+    padding-right: 0;
+
+}
+header .card-body .card-text {
+    line-height: 2rem;
+}
+
+.row>* {
+    padding-left: 0;
+}
+
+.fa-html5 {
+    color: #df7e00
+}
+.fa-css3-alt {
+    color: #008cff;
+}
+
+.fa-js {
+    color: rgb(255, 229, 0);
+}
+
+.fa-bootstrap {
+    color: rgb(103, 0, 199); 
+}
+.fa-php {
+    color: #555a97; 
+}
+
+.fa-laravel {
+    color: #ff3939; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    margin-top: 103px;
+    height: 120px;
+    width: 100%;
+    background-image: linear-gradient(to right,#009688, #13435d);
+}
+footer .mt-footer {
+    margin-top: 50px;
+}
+
+i {
+
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer a {
+    color: white;
+    opacity: 50%;
+}
+
+footer a:hover {
+    color: white;
+    opacity: 100%;
+
+}
