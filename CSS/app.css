@@ -25,7 +25,14 @@ header {
 header img {
     width: 200px;
     height: 200px;
-    border: solid #00b7ff 3px;
+    /* border: solid #00b7ff 3px; */
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    border-radius: 50%;
+    
+    background: linear-gradient(to right,#009688, #13435d);
+    padding: 2px;   
     border-radius: 50%;
     
 }
@@ -55,6 +62,7 @@ header h3 {
 }
 
 
+
 .content h1 {
     margin: 0 auto;
     padding: 7px;
@@ -73,27 +81,7 @@ header .card-body .card-text {
     padding-left: 0;
 }
 
-.fa-html5 {
-    color: #df7e00
-}
-.fa-css3-alt {
-    color: #008cff;
-}
 
-.fa-js {
-    color: #f7df1e;
-}
-
-.fa-bootstrap {
-    color: rgb(103, 0, 199); 
-}
-.fa-php {
-    color: #555a97; 
-}
-
-.fa-laravel {
-    color: #ff3939; 
-}
 
 a {
     text-decoration: none;

@@ -1,0 +1,39 @@
+.fa-html5 {
+    color: #df7e00
+}
+.fa-css3-alt {
+    color: #008cff;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-bootstrap {
+    color: rgb(103, 0, 199); 
+}
+.fa-php {
+    color: #555a97; 
+}
+
+.fa-laravel {
+    color: #ff3939; 
+}
+
+.up {
+    position: fixed;
+    bottom: 95px;
+    right: -60px;
+    background-color: #053853;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .up.show {
+    right: 10px;
+  }
