@@ -15,7 +15,7 @@ background-color: rgb(226, 226, 226);
 }
 header {
     background-color: linear-gradient(to right,#009688, #13435d);
-background-color: rgb(226, 226, 226);
+/* background-color: rgb(226, 226, 226); */
 
     height: 10rem;
     border-bottom: solid #00b7ff 3px;
@@ -36,9 +36,11 @@ header h3 {
 
 .row {
     --bs-gutter-x: 4.5rem;
-    margin-left: 0 !important
-
+    margin-left: 0 !important;
+    /* margin-right: 0 !important; */
 }
+
+
 .bg-custom {
     border: none;
     background-image: linear-gradient(to right,#009688, #13435d);
@@ -54,6 +56,7 @@ header h3 {
 
 
 .content h1 {
+    margin: 0 auto;
     padding: 7px;
     /* border-top: solid 2px #13435d; */
     border-bottom: solid 2px #00b7ff;
@@ -78,7 +81,7 @@ header .card-body .card-text {
 }
 
 .fa-js {
-    color: rgb(255, 229, 0);
+    color: #f7df1e;
 }
 
 .fa-bootstrap {
@@ -122,4 +125,28 @@ footer a:hover {
     color: white;
     opacity: 100%;
 
+}
+
+.card {
+    border: none;
+}
+
+
+
+.up {
+  position: fixed;
+  bottom: 95px;
+  right: -60px;
+  background-color: #053853;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 2px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.up.show {
+  right: 10px;
 }
