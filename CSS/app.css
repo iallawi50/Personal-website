@@ -105,11 +105,13 @@ i {
 }
 
 footer a {
+    transition: 0.5s;
     color: white;
     opacity: 50%;
 }
 
 footer a:hover {
+    transition: 0.5s;
     color: white;
     opacity: 100%;
 

@@ -2,7 +2,30 @@ body {
     overflow-x: hidden;
 }
 
-  
+.effect-header {
+    position: relative;
+    opacity: 0%;
+    top: 500px;
+}
+
+.effect-header-show{
+    transition: 1.5s;
+    opacity: 100%;
+    top: 0;   
+}
+
+.bg-header-effect {
+    position: relative;
+    opacity: 0%;
+    bottom: 500px;
+}
+
+.bg-header-effect{
+    transition: 1.5s;
+    opacity: 100%;
+    bottom: 0;   
+}
+
 .effect-right-school {
     position: relative;
     right: -1500px;
