@@ -1,91 +1,95 @@
 body {
     overflow-x: hidden;
 }
+@media only screen and (min-width: 1000px) {
+    .effect-header {
+        position: relative;
+        opacity: 0%;
+        top: 500px;
+    }
+    
+    .effect-header-show{
+        transition: 1.5s;
+        opacity: 100%;
+        top: 0;   
+    }
+    
+    .bg-header-effect {
+        position: relative;
+        opacity: 0%;
+        bottom: 500px;
+    }
+    
+    .bg-header-effect{
+        transition: 1.5s;
+        opacity: 100%;
+        bottom: 0;   
+    }
+    
+    .effect-right-school {
+        position: relative;
+        right: -1500px;
+    }
+    
+    .effect-right-school-show {
+        transition: 1.5s;
+        right: 0;   
+    }
+    
+    .effect-right-skills1,.effect-right-skills2 
+     {
+        position: relative;
+        right: -1500px;
+    }
+    
+    .effect-right-skills-show{
+        transition: 1.5s;
+        right: 0;   
+    }
+    
+    .effect-bottom-skills3,.effect-bottom-skills4 {
+        position: relative;
+        opacity: 0%;
+        top: 500px;
+    }
+    
+    .effect-bottom-skills-show{
+        transition: 1.5s;
+        opacity: 100%;
+        top: 0;   
+    }
+    
+    .effect-left-skills5, .effect-left-skills6
+     {
+        position: relative;
+        left: -1500px;
+    }
+    
+    .effect-left-skills-show{
+        transition: 1.5s;
+        left: 0;   
+    }
+    
+    .effect-right-brand {
+        position: relative;
+        right: -1500px;
+    }
+    
+    .effect-right-brand-show {
+        transition: 1.5s;
+        right: 0;   
+    }
+    
+    .effect-left-brand {
+        position: relative;
+        left: -1500px;
+    }
+    
+    .effect-left-brand-show {
+        transition: 1.5s;
+        left: 0;   
+    }
 
-.effect-header {
-    position: relative;
-    opacity: 0%;
-    top: 500px;
 }
 
-.effect-header-show{
-    transition: 1.5s;
-    opacity: 100%;
-    top: 0;   
-}
 
-.bg-header-effect {
-    position: relative;
-    opacity: 0%;
-    bottom: 500px;
-}
-
-.bg-header-effect{
-    transition: 1.5s;
-    opacity: 100%;
-    bottom: 0;   
-}
-
-.effect-right-school {
-    position: relative;
-    right: -1500px;
-}
-
-.effect-right-school-show {
-    transition: 1.5s;
-    right: 0;   
-}
-
-.effect-right-skills1,.effect-right-skills2 
- {
-    position: relative;
-    right: -1500px;
-}
-
-.effect-right-skills-show{
-    transition: 1.5s;
-    right: 0;   
-}
-
-.effect-bottom-skills3,.effect-bottom-skills4 {
-    position: relative;
-    opacity: 0%;
-    top: 500px;
-}
-
-.effect-bottom-skills-show{
-    transition: 1.5s;
-    opacity: 100%;
-    top: 0;   
-}
-
-.effect-left-skills5, .effect-left-skills6
- {
-    position: relative;
-    left: -1500px;
-}
-
-.effect-left-skills-show{
-    transition: 1.5s;
-    left: 0;   
-}
-
-.effect-right-brand {
-    position: relative;
-    right: -1500px;
-}
-
-.effect-right-brand-show {
-    transition: 1.5s;
-    right: 0;   
-}
-
-.effect-left-brand {
-    position: relative;
-    left: -1500px;
-}
-
-.effect-left-brand-show {
-    transition: 1.5s;
-    left: 0;   
-}
