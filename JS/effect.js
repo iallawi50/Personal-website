@@ -1,11 +1,6 @@
 let header = document.querySelector(".effect-header");
 let bgheader = document.querySelector(".bg-header-effect");
 let school = document.querySelector(".effect-right-school");
-let xxx = document.querySelector(".effect-x");
-
-// let school = document.querySelector(".effect-right-school");
-
-
 let skills1 = document.querySelector(".effect-right-skills1");
 let skills2 = document.querySelector(".effect-right-skills2");
 let skills3 = document.querySelector(".effect-bottom-skills3");
@@ -37,7 +32,6 @@ window.onscroll = function () {
         school.classList.add("effect-right-school-show");
     }
 
-    this.scrollY >= 250 ? up.classList.add("show") : up.classList.remove("show");
 
 
 
@@ -45,6 +39,9 @@ window.onscroll = function () {
         brand1.classList.add("effect-right-brand-show");
         brand2.classList.add("effect-left-brand-show")
     }
+
+
+    this.scrollY >= 250 ? up.classList.add("show") : up.classList.remove("show");
 };
 
 
