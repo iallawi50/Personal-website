@@ -7,7 +7,7 @@ Vue.component("skills", {
 
 
 
-    <div class="col-lg-4 col-md-6 col-sm-12" v-for="item in filteredItems">
+    <div class="col-lg-4 col-md-6 col-sm-12" v-for="item in items">
     <div class="card text-dark bg-light mb-3" :class="item.class" style="max-width: 30rem;">
         <div class="card-body">
             <p class="card-text text-center">
@@ -70,15 +70,5 @@ Vue.component("skills", {
         }
     },
 
-    computed: {
-        filteredItems() {
-            if (this.filterKey == null) {
-                return this.items
-            }
 
-            return this.items.filter(item => {
-                return item.tags.indexOf(this.filterKey) !== -1
-            })
-        }
-    }
 })
