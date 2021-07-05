@@ -1,24 +1,63 @@
 .fa-html5 {
-    color: #df7e00
+    color: #df7e00;
+    transition: 0.5s;
+}
+
+.fa-html5:hover {
+    text-shadow: 0 0 10px #df7e00;
+    transition: 0.5s;
+    
 }
 .fa-css3-alt {
     color: #008cff;
+    transition: 0.5s;
+}
+.fa-css3-alt:hover {
+    text-shadow: 0 0 10px #008cff;
+    transition: 0.5s;
+    
 }
 
 .fa-js {
     color: #f7df1e;
+    transition: 0.5s;
+}
+
+.fa-js:hover {
+    text-shadow: 0 0 10px #ffe100;
+    transition: 0.5s;
 }
 
 .fa-bootstrap {
     color: rgb(103, 0, 199); 
+    transition: 0.5s;
 }
+
+.fa-bootstrap:hover {
+    text-shadow: 0 0 10px rgb(103, 0, 199);
+    transition: 0.5s;
+}
+
 .fa-php {
     color: #555a97; 
+    transition: 0.5s;
+}
+
+.fa-php:hover {
+    text-shadow: 0 0 10px #555a97; 
+    transition: 0.5s;
 }
 
 .fa-laravel {
     color: #ff3939; 
+    transition: 0.5s;
 }
+
+.fa-laravel:hover {
+    text-shadow: 0 0 10px #ff3939; 
+    transition: 0.5s;
+}
+
 
 .up {
     position: fixed;

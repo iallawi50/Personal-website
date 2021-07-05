@@ -1,6 +1,9 @@
 let header = document.querySelector(".effect-header");
 let bgheader = document.querySelector(".bg-header-effect");
 let school = document.querySelector(".effect-right-school");
+let xxx = document.querySelector(".effect-x");
+
+// let school = document.querySelector(".effect-right-school");
 
 
 let skills1 = document.querySelector(".effect-right-skills1");
@@ -13,7 +16,7 @@ let skills6 = document.querySelector(".effect-left-skills6");
 let brand1 = document.querySelector(".effect-right-brand");
 let brand2 = document.querySelector(".effect-left-brand");
 
-let span = document.querySelector(".up");
+let up = document.querySelector(".up");
 header.classList.add("effect-header-show");
 bgheader.classList.add("bg-header-effect-show");
 
@@ -21,23 +24,31 @@ bgheader.classList.add("bg-header-effect-show");
 
 
 window.onscroll = function () {
-    this.scrollY >= 250 ? span.classList.add("show") : span.classList.remove("show");
+    if (this.scrollY >= 540) {
+        skills1.classList.add("effect-right-skills-show");
+        skills2.classList.add("effect-right-skills-show");
+        skills3.classList.add("effect-bottom-skills-show");
+        skills4.classList.add("effect-bottom-skills-show");
+        skills5.classList.add("effect-left-skills-show");
+        skills6.classList.add("effect-left-skills-show");
+    }
 
-    this.scrollY >= 240 ? school.classList.add("effect-right-school-show") : '';
+    if (this.scrollY >= 240) {
+        school.classList.add("effect-right-school-show");
+    }
 
-    this.scrollY >= 540 ? skills1.classList.add("effect-right-skills-show") : '';
-    this.scrollY >= 540 ? skills2.classList.add("effect-right-skills-show") : '';
-    this.scrollY >= 540 ? skills3.classList.add("effect-bottom-skills-show") : '';
-    this.scrollY >= 540 ? skills4.classList.add("effect-bottom-skills-show") : '';
-    this.scrollY >= 540 ? skills5.classList.add("effect-left-skills-show") : '';
-    this.scrollY >= 540 ? skills6.classList.add("effect-left-skills-show") : '';
+    this.scrollY >= 250 ? up.classList.add("show") : up.classList.remove("show");
 
-    this.scrollY >= 1100 ? brand1.classList.add("effect-right-brand-show") : '';
-    this.scrollY >= 1100 ? brand2.classList.add("effect-left-brand-show") : '';
+
+
+    if (this.scrollY >= 1100) {
+        brand1.classList.add("effect-right-brand-show");
+        brand2.classList.add("effect-left-brand-show")
+    }
 };
 
 
-span.onclick = function () {
+up.onclick = function () {
     window.scrollTo({
         top: 0,
         behavior: "smooth",

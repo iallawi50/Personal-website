@@ -3,20 +3,18 @@
 * { 
     font-family: 'Changa', sans-serif;
 }
+.gradient {
+    background: linear-gradient(to right,#009688, #13435d);
 
+}
 body {
 background-color: rgb(226, 226, 226);
 }
 .bg-header {
-    background-image: linear-gradient(to right,#009688, #13435d);
-background-color: rgb(226, 226, 226);
     height: 10rem;
     margin-bottom: -150px;  
 }
 header {
-    background-color: linear-gradient(to right,#009688, #13435d);
-/* background-color: rgb(226, 226, 226); */
-
     height: 10rem;
     border-bottom: solid #00b7ff 3px;
     display: inline;
@@ -27,15 +25,14 @@ header img {
     height: 200px;
     /* border: solid #00b7ff 3px; */
     max-width: 250px;
-    padding: 1rem;
     position: relative;
-    border-radius: 50%;
     
     background: linear-gradient(to right,#009688, #13435d);
     padding: 4px;   
     border-radius: 50%;
     
 }
+
 
 header h3 {
     color: rgb(3, 54, 97);
@@ -56,6 +53,8 @@ header h3 {
 .float-right {
     /* float: right; */
     text-align: right;
+    text-align: justify;
+
 }
 .content {
     margin-top: 30px;
@@ -92,7 +91,7 @@ footer {
     margin-top: 103px;
     height: 120px;
     width: 100%;
-    background-image: linear-gradient(to right,#009688, #13435d);
+
 }
 footer .mt-footer {
     margin-top: 50px;

@@ -25,7 +25,8 @@
 
 <body lang="ar" dir="rtl">
     <div class="col-12">
-        <div class="bg-header bg-header-effect"></div>
+        <div class="bg-header gradient bg-header-effect"></div>
+
 
         <header class="effect-header">
             <div class="text-center">
@@ -61,6 +62,7 @@
 
 
 
+
     <div class="content">
         <h1 class="text-center mx-auto">التعليم</h1>
         <div class="container mt-5">
@@ -90,23 +92,23 @@
     <div class="content">
         <h1 class="text-center mx-auto">المهارات</h1>
         <div class="container mt-5 mx-auto">
-            <div class="row my-skills">
+            <div id="my-skills-vueJS">
+                <div>
+                    <skills></skills>
+                </div>
 
 
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-12 effect-right-skills1">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12 effect-right-skills1">
                     <div class="card text-dark bg-light mb-3" style="max-width: 30rem;">
                         <div class="card-body">
                             <p class="card-text text-center">
                                 <i class="fab fa-html5 fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
                                     aria-valuemin="0" aria-valuemax="100">100%</div>
-                            </div> -->
+                            </div>
 
                         </div>
                         <div class="card-footer text-white text-center bg-custom">HTML</div>
@@ -121,10 +123,10 @@
                                 <i class="fab fa-css3-alt fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
                                     aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div> -->
+                            </div>
                         </div>
                         <div class="card-footer text-white text-center bg-custom">CSS</div>
                     </div>
@@ -138,10 +140,10 @@
                                 <i class="fab fa-js fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25"
                                     aria-valuemin="0" aria-valuemax="100">30%</div>
-                            </div> -->
+                            </div>
 
                         </div>
                         <div class="card-footer text-white text-center bg-custom">JavaScript</div>
@@ -156,10 +158,10 @@
                                 <i class="fab fa-bootstrap fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
                                     aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div> -->
+                            </div>
 
                         </div>
                         <div class="card-footer text-white text-center bg-custom">Bootstrap</div>
@@ -174,10 +176,10 @@
                                 <i class="fab fa-php fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">30%</div>
-                                </div> -->
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
 
                         </div>
                         <div class="card-footer text-white text-center bg-custom">PHP</div>
@@ -192,15 +194,15 @@
                                 <i class="fab fa-laravel fa-5x"></i>
                             </p>
 
-                            <!-- <div class="progress">
+                            <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25"
                                     aria-valuemin="0" aria-valuemax="100">35%</div>
-                            </div> -->
+                            </div>
 
                         </div>
                         <div class="card-footer text-white text-center bg-custom">Laravel</div>
                     </div>
-                </div>
+                </div> -->
 
 
 
@@ -219,11 +221,6 @@
             <center>
 
                 <div class="row">
-
-
-
-
-
                     <div class="col-lg-6 col-md-6 col-sm-12 effect-right-brand">
                         <a href="https://cast-media.netlify.app" target="_blank">
                             <div class="card text-dark bg-light mb-3" style="max-width: 30rem;">
@@ -232,10 +229,6 @@
                                         <img src="./partof/castmedia.png" width="200px" alt="">
                                     </p>
 
-                                    <!-- <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">100%</div>
-                                    </div> -->
 
                                     <center>
 
@@ -258,12 +251,6 @@
                                     <p class="card-text text-center">
                                         <img src="./partof/bitcode.png" width="112px" alt="">
                                     </p>
-
-                                    <!-- <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
-                                        aria-valuemin="0" aria-valuemax="100">100%</div>
-                                    </div> -->
-
                                     <center>
 
                                         <small class="text-muted">متدرب</small>
@@ -284,7 +271,7 @@
 
 
 
-    <footer dir="ltr">
+    <footer dir="ltr" class="gradient">
 
 
         <div class="d-flex d-inline justify-content-center">
@@ -294,19 +281,27 @@
                 <a href="https://gitlab.com/iallawi50" target="_blank"><i class="fab fa-gitlab fa-2x"></i></a>
                 <a href="https://instagram.com/iallawi50" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                 <a href="https://wa.me/966565595718" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
-                <!-- <a href="https://wa.me/966565595718" target="_blank"><i class="fa fa-mail fa-2x"></i></a> -->
             </div>
-        </div>
-
-        <div class="d-flex d-inline justify-content-center">
         </div>
 
     </footer>
 
     <span class="up"><i class="fas fa-chevron-up text-light"></i></span>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./JS/vue/skills.js"></script>
+
+    <script>
+        new Vue({
+            el: "#my-skills-vueJS",
+        })
+    </script>
+
+
     <script src="JS/effect.js"></script>
-    <script src="JS/app.js"></script>
+
+
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
