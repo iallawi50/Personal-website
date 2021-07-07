@@ -20,7 +20,7 @@ Vue.component("skills", {
             </div> -->
 
         </div>
-        <div class="card-footer text-white text-center bg-custom">{{ item.title }}</div>
+        <div class="card-footer skills-title text-white text-center bg-custom">{{ item.title }}</div>
     </div>
     </div>
     </div>
@@ -47,7 +47,7 @@ Vue.component("skills", {
                 },
                 {
                     icon: "fab fa-js fa-5x",
-                    title: "JS",
+                    title: "JavaScript",
                     class: "effect-left-skills5",
                 },
                 {

@@ -7,7 +7,7 @@ Vue.component("partof", {
 
 
 <div class="col-lg-6 col-md-6 col-sm-12" v-for="item in items">
-<a href="https://cast-media.netlify.app" target="_blank">
+<a :href="item.link" target="_blank">
     <div class="card text-dark bg-light mb-3" :class="item.class" style="max-width: 30rem;">
         <div class="card-body">
             <p class="card-text text-center">
@@ -39,6 +39,7 @@ Vue.component("partof", {
                 {
                     img: "./partof/castmedia.png",
                     title: "CastMedia",
+                    link: "https://cast-media.netlify.app/",
                     class: "effect-right-brand",
                     role: "مؤسس",
                     size: "200px"
@@ -46,6 +47,7 @@ Vue.component("partof", {
                 {
                     img: "./partof/bitcode.png",
                     title: "BitCode",
+                    link: "https://BitCode.sa",
                     class: "effect-left-brand",
                     role: "متدرب",
                     size: "112px"
