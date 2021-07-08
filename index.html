@@ -114,56 +114,45 @@
                         <partof></partof>
                     </div>
                 </div>
-
-                <!-- <x class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 effect-right-brand">
-                        <a href="https://cast-media.netlify.app" target="_blank">
-                            <div class="card text-dark bg-light mb-3" style="max-width: 30rem;">
-                                <div class="card-body">
-                                    <p class="card-text text-center">
-                                        <img src="./partof/castmedia.png" width="200px" alt="">
-                                    </p>
-
-
-                                    <center>
-
-                                        <small class="text-muted">مؤسس</small>
-                                    </center>
-
-                                </div>
-                                <div class="card-footer text-white text-center bg-custom">CastMedia</div>
-                            </div>
-                        </a>
-                    </div>
-
-
-
-
-                    <div class="col-lg-6 col-md-6 col-sm-12 effect-left-brand">
-                        <a href="https://bitcode.sa" target="_blank">
-                            <div class="card text-dark bg-light mb-3" style="max-width: 30rem;">
-                                <div class="card-body">
-                                    <p class="card-text text-center">
-                                        <img src="./partof/bitcode.png" width="112px" alt="">
-                                    </p>
-                                    <center>
-
-                                        <small class="text-muted">متدرب</small>
-                                    </center>
-
-                                </div>
-                                <div class="card-footer text-white text-center bg-custom">BitCode</div>
-                            </div>
-                        </a>
-                    </div>
-
-
-
-                </x> -->
             </center>
         </div>
     </div>
 
+    <div class="content">
+        <h1 class="text-center mx-auto">أعمالي</h1>
+        <div class="container mt-5 mx-auto">
+            <!-- <center> -->
+
+            <div id="my-work">
+                <div>
+                    <mywork></mywork>
+                </div>
+            </div>
+            <!-- </center> -->
+        </div>
+    </div>
+
+
+    <!-- <div class="content">
+        <h1 class="text-center mx-auto">تواصل معي</h1>
+        <div class="container mt-5 mx-auto">
+
+
+            <div class="row">
+
+                <div class="col-12 mx-auto">
+                    <div class="card">
+                        <form action="">
+                            
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div> -->
 
 
     <footer dir="ltr" class="gradient">
@@ -186,6 +175,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="./JS/vue/skills.js"></script>
     <script src="./JS/vue/partof.js"></script>
+    <script src="./JS/vue/mywork.js"></script>
 
     <script>
         new Vue({
@@ -193,6 +183,9 @@
         })
         new Vue({
             el: "#part-of",
+        })
+        new Vue({
+            el: "#my-work",
         })
     </script>
 
@@ -202,6 +195,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

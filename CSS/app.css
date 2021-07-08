@@ -6,6 +6,11 @@
     font-weight: bold;
     
 }
+
+.skills-title {
+    font-family: 'Changa', sans-serif;
+
+}
 .gradient {
     background: linear-gradient(to right,#009688, #13435d);
 
@@ -56,8 +61,6 @@ header h3 {
 }
 
 .float-right {
-    /* float: right; */
-    text-align: right;
     text-align: justify;
 
 }
@@ -89,6 +92,12 @@ header .card-body .card-text {
 
 a {
     text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: white
 }
 
 
@@ -125,6 +134,14 @@ footer a:hover {
     border: none;
 }
 
+
+.link {
+    color: #053853;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 30%;
+}
 
 
 .up {

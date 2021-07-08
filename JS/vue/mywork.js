@@ -6,7 +6,7 @@ Vue.component("mywork", {
 <div class="row">
 
 
-<div class="col-lg-6 col-md-6" v-for="item in items">
+<div class="col-lg-4 col-md-6" v-for="item in items">
 <div class="card text-dark bg-light mb-3" :class="item.class" style="min-height: 12rem;">
     <div class="card-header d-flex text-white bg-custom">
 
@@ -57,16 +57,28 @@ Vue.component("mywork", {
 
             items: [
                 {
+                    title: "موجة الحداثة",
+                    link: "http://mwave.sa/",
+                    description: "موقع متجر موجة الحداثة",
+                    date: "18/01/2021",
+                },
+                {
+                    title: "ستائر الصفوة",
+                    link: "https://elite-cs.netlify.app/",
+                    description: "موقع متجر ستائر الصفوة",
+                    date: "18/01/2021",
+                },
+                {
                     title: "مشاريعي",
                     link: "http://myprojects-cm.herokuapp.com/",
                     description: "موقع لإدارة المهام والمشاريع",
-                    date: "2021/5/22",
+                    date: "22/5/2021",
                 },
                 {
                     title: "عاداتي ومهاراتي",
                     link: "http://habitsandskills.herokuapp.com/",
                     description: "موقع يساعدك على اكتساب العادات والمهارات المفيدة والتخلص من العادات السيئة في 40 يوماً",
-                    date: "2021/6/08",
+                    date: "08/6/2021",
                 },
             ],
         }
