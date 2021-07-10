@@ -66,7 +66,7 @@ Vue.component("mywork", {
                     title: "ستائر الصفوة",
                     link: "https://elite-cs.netlify.app/",
                     description: "موقع متجر ستائر الصفوة",
-                    date: "18/01/2021",
+                    date: "12/02/2021",
                 },
                 {
                     title: "مشاريعي",
