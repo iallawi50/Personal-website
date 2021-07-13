@@ -76,3 +76,7 @@
   .up.show {
     right: 10px;
   }
+
+  .fa-link {
+        margin-left: 0px;
+  }
