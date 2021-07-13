@@ -57,6 +57,18 @@ Vue.component("mywork", {
 
             items: [
                 {
+                    title: "العلماء",
+                    link: "https://al3lma2.netlify.app",
+                    description: "مطوية إلكترونية لعلماء الفيزياء والكيمياء",
+                    date: "17/11/2020",
+                },
+                                {
+                    title: "كاست ميديا",
+                    link: "https://cast-media.netlify.app",
+                    description: "موقع فريق كاست ميديا للخدمات الالكترونية ",
+                    date: "20/11/2020",
+                },
+                {
                     title: "موجة الحداثة",
                     link: "http://mwave.sa/",
                     description: "موقع متجر موجة الحداثة",
@@ -64,19 +76,19 @@ Vue.component("mywork", {
                 },
                 {
                     title: "ستائر الصفوة",
-                    link: "https://elite-cs.netlify.app/",
+                    link: "https://elite-cs.netlify.app",
                     description: "موقع متجر ستائر الصفوة",
                     date: "12/02/2021",
                 },
                 {
                     title: "مشاريعي",
-                    link: "http://myprojects-cm.herokuapp.com/",
+                    link: "http://myprojects-cm.herokuapp.com",
                     description: "موقع لإدارة المهام والمشاريع",
                     date: "22/5/2021",
                 },
                 {
                     title: "عاداتي ومهاراتي",
-                    link: "http://habitsandskills.herokuapp.com/",
+                    link: "http://habitsandskills.herokuapp.com",
                     description: "موقع يساعدك على اكتساب العادات والمهارات المفيدة والتخلص من العادات السيئة في 40 يوماً",
                     date: "08/6/2021",
                 },
