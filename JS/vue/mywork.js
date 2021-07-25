@@ -70,7 +70,7 @@ Vue.component("mywork", {
                 },
                 {
                     title: "موجة الحداثة",
-                    link: "http://mwave.sa/",
+                    link: "https://mwave.sa/",
                     description: "موقع متجر موجة الحداثة",
                     date: "18/01/2021",
                 },
